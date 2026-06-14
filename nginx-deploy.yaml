@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: xaikorea1/nginxweb:v2.0
+        image: 898689253965.dkr.ecr.ap-northeast-2.amazonaws.com/eks-nginx:v1.0
         ports:
         - containerPort: 80
         resources:
