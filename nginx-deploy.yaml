@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: nginx:1.25
+        image: xaikorea1/nginxweb:v2.0
         ports:
         - containerPort: 80
         resources:
